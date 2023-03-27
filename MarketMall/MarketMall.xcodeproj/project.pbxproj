@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA58E20429D2225E00A17715 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E20329D2225E00A17715 /* FirebaseAuth */; };
+		CA58E20629D2225E00A17715 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E20529D2225E00A17715 /* FirebaseDatabaseSwift */; };
+		CA58E20829D2225E00A17715 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E20729D2225E00A17715 /* FirebaseFirestoreSwift */; };
+		CA58E20A29D2225E00A17715 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E20929D2225E00A17715 /* FirebaseStorage */; };
+		CA58E20D29D2236E00A17715 /* AlgoliaSearchClient in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E20C29D2236E00A17715 /* AlgoliaSearchClient */; };
+		CA58E21029D223A300A17715 /* EmptyDataSet-Swift in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E20F29D223A300A17715 /* EmptyDataSet-Swift */; };
+		CA58E21329D223E000A17715 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E21229D223E000A17715 /* NVActivityIndicatorView */; };
+		CA58E21529D223E000A17715 /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E21429D223E000A17715 /* NVActivityIndicatorViewExtended */; };
+		CA58E21829D224D400A17715 /* CardPayments in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E21729D224D400A17715 /* CardPayments */; };
+		CA58E21A29D224D400A17715 /* CorePayments in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E21929D224D400A17715 /* CorePayments */; };
+		CA58E21C29D224D400A17715 /* FraudProtection in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E21B29D224D400A17715 /* FraudProtection */; };
+		CA58E21E29D224D400A17715 /* PayPalNativePayments in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E21D29D224D400A17715 /* PayPalNativePayments */; };
+		CA58E22029D224D400A17715 /* PayPalWebPayments in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E21F29D224D400A17715 /* PayPalWebPayments */; };
+		CA58E22229D224D400A17715 /* PaymentButtons in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E22129D224D400A17715 /* PaymentButtons */; };
+		CA6621AD29D2208C006E84B6 /* JGProgressHUD-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CA6621AC29D2208C006E84B6 /* JGProgressHUD-SwiftUI */; };
 		CAF0F4B829D20EB80039CA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF0F4B729D20EB80039CA95 /* AppDelegate.swift */; };
 		CAF0F4BA29D20EB80039CA95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF0F4B929D20EB80039CA95 /* SceneDelegate.swift */; };
 		CAF0F4BC29D20EB80039CA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF0F4BB29D20EB80039CA95 /* ViewController.swift */; };
@@ -58,6 +73,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA58E21529D223E000A17715 /* NVActivityIndicatorViewExtended in Frameworks */,
+				CA58E22229D224D400A17715 /* PaymentButtons in Frameworks */,
+				CA58E21329D223E000A17715 /* NVActivityIndicatorView in Frameworks */,
+				CA58E21029D223A300A17715 /* EmptyDataSet-Swift in Frameworks */,
+				CA58E20629D2225E00A17715 /* FirebaseDatabaseSwift in Frameworks */,
+				CA6621AD29D2208C006E84B6 /* JGProgressHUD-SwiftUI in Frameworks */,
+				CA58E20429D2225E00A17715 /* FirebaseAuth in Frameworks */,
+				CA58E20D29D2236E00A17715 /* AlgoliaSearchClient in Frameworks */,
+				CA58E21A29D224D400A17715 /* CorePayments in Frameworks */,
+				CA58E21C29D224D400A17715 /* FraudProtection in Frameworks */,
+				CA58E22029D224D400A17715 /* PayPalWebPayments in Frameworks */,
+				CA58E21829D224D400A17715 /* CardPayments in Frameworks */,
+				CA58E20A29D2225E00A17715 /* FirebaseStorage in Frameworks */,
+				CA58E21E29D224D400A17715 /* PayPalNativePayments in Frameworks */,
+				CA58E20829D2225E00A17715 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +176,23 @@
 			dependencies = (
 			);
 			name = MarketMall;
+			packageProductDependencies = (
+				CA6621AC29D2208C006E84B6 /* JGProgressHUD-SwiftUI */,
+				CA58E20329D2225E00A17715 /* FirebaseAuth */,
+				CA58E20529D2225E00A17715 /* FirebaseDatabaseSwift */,
+				CA58E20729D2225E00A17715 /* FirebaseFirestoreSwift */,
+				CA58E20929D2225E00A17715 /* FirebaseStorage */,
+				CA58E20C29D2236E00A17715 /* AlgoliaSearchClient */,
+				CA58E20F29D223A300A17715 /* EmptyDataSet-Swift */,
+				CA58E21229D223E000A17715 /* NVActivityIndicatorView */,
+				CA58E21429D223E000A17715 /* NVActivityIndicatorViewExtended */,
+				CA58E21729D224D400A17715 /* CardPayments */,
+				CA58E21929D224D400A17715 /* CorePayments */,
+				CA58E21B29D224D400A17715 /* FraudProtection */,
+				CA58E21D29D224D400A17715 /* PayPalNativePayments */,
+				CA58E21F29D224D400A17715 /* PayPalWebPayments */,
+				CA58E22129D224D400A17715 /* PaymentButtons */,
+			);
 			productName = MarketMall;
 			productReference = CAF0F4B429D20EB80039CA95 /* MarketMall.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +265,14 @@
 				Base,
 			);
 			mainGroup = CAF0F4AB29D20EB80039CA95;
+			packageReferences = (
+				CA6621AB29D2208C006E84B6 /* XCRemoteSwiftPackageReference "JGProgressHUD-SwiftUI" */,
+				CA58E20229D2225E00A17715 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CA58E20B29D2236E00A17715 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */,
+				CA58E20E29D223A300A17715 /* XCRemoteSwiftPackageReference "EmptyDataSet-Swift" */,
+				CA58E21129D223E000A17715 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+				CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */,
+			);
 			productRefGroup = CAF0F4B529D20EB80039CA95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -606,6 +661,135 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CA58E20229D2225E00A17715 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		CA58E20B29D2236E00A17715 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/algolia/algoliasearch-client-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		CA58E20E29D223A300A17715 /* XCRemoteSwiftPackageReference "EmptyDataSet-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Xiaoye220/EmptyDataSet-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		CA58E21129D223E000A17715 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paypal/iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.6;
+			};
+		};
+		CA6621AB29D2208C006E84B6 /* XCRemoteSwiftPackageReference "JGProgressHUD-SwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD-SwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CA58E20329D2225E00A17715 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA58E20229D2225E00A17715 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CA58E20529D2225E00A17715 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA58E20229D2225E00A17715 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		CA58E20729D2225E00A17715 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA58E20229D2225E00A17715 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		CA58E20929D2225E00A17715 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA58E20229D2225E00A17715 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		CA58E20C29D2236E00A17715 /* AlgoliaSearchClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA58E20B29D2236E00A17715 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */;
+			productName = AlgoliaSearchClient;
+		};
+		CA58E20F29D223A300A17715 /* EmptyDataSet-Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA58E20E29D223A300A17715 /* XCRemoteSwiftPackageReference "EmptyDataSet-Swift" */;
+			productName = "EmptyDataSet-Swift";
+		};
+		CA58E21229D223E000A17715 /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA58E21129D223E000A17715 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+		CA58E21429D223E000A17715 /* NVActivityIndicatorViewExtended */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA58E21129D223E000A17715 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorViewExtended;
+		};
+		CA58E21729D224D400A17715 /* CardPayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */;
+			productName = CardPayments;
+		};
+		CA58E21929D224D400A17715 /* CorePayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */;
+			productName = CorePayments;
+		};
+		CA58E21B29D224D400A17715 /* FraudProtection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */;
+			productName = FraudProtection;
+		};
+		CA58E21D29D224D400A17715 /* PayPalNativePayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */;
+			productName = PayPalNativePayments;
+		};
+		CA58E21F29D224D400A17715 /* PayPalWebPayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */;
+			productName = PayPalWebPayments;
+		};
+		CA58E22129D224D400A17715 /* PaymentButtons */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */;
+			productName = PaymentButtons;
+		};
+		CA6621AC29D2208C006E84B6 /* JGProgressHUD-SwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA6621AB29D2208C006E84B6 /* XCRemoteSwiftPackageReference "JGProgressHUD-SwiftUI" */;
+			productName = "JGProgressHUD-SwiftUI";
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CAF0F4C029D20EB80039CA95 /* MarketMall.xcdatamodeld */ = {
