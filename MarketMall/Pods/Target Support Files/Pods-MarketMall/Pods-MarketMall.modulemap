@@ -1,0 +1,6 @@
+framework module Pods_MarketMall {
+  umbrella header "Pods-MarketMall-umbrella.h"
+
+  export *
+  module * { export * }
+}

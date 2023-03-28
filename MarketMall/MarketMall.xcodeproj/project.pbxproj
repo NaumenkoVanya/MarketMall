@@ -7,24 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA58E20429D2225E00A17715 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E20329D2225E00A17715 /* FirebaseAuth */; };
-		CA58E20629D2225E00A17715 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E20529D2225E00A17715 /* FirebaseDatabaseSwift */; };
-		CA58E20829D2225E00A17715 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E20729D2225E00A17715 /* FirebaseFirestoreSwift */; };
-		CA58E20A29D2225E00A17715 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E20929D2225E00A17715 /* FirebaseStorage */; };
-		CA58E20D29D2236E00A17715 /* AlgoliaSearchClient in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E20C29D2236E00A17715 /* AlgoliaSearchClient */; };
-		CA58E21029D223A300A17715 /* EmptyDataSet-Swift in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E20F29D223A300A17715 /* EmptyDataSet-Swift */; };
-		CA58E21329D223E000A17715 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E21229D223E000A17715 /* NVActivityIndicatorView */; };
-		CA58E21529D223E000A17715 /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E21429D223E000A17715 /* NVActivityIndicatorViewExtended */; };
-		CA58E21829D224D400A17715 /* CardPayments in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E21729D224D400A17715 /* CardPayments */; };
-		CA58E21A29D224D400A17715 /* CorePayments in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E21929D224D400A17715 /* CorePayments */; };
-		CA58E21C29D224D400A17715 /* FraudProtection in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E21B29D224D400A17715 /* FraudProtection */; };
-		CA58E21E29D224D400A17715 /* PayPalNativePayments in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E21D29D224D400A17715 /* PayPalNativePayments */; };
-		CA58E22029D224D400A17715 /* PayPalWebPayments in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E21F29D224D400A17715 /* PayPalWebPayments */; };
-		CA58E22229D224D400A17715 /* PaymentButtons in Frameworks */ = {isa = PBXBuildFile; productRef = CA58E22129D224D400A17715 /* PaymentButtons */; };
-		CA6621AD29D2208C006E84B6 /* JGProgressHUD-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CA6621AC29D2208C006E84B6 /* JGProgressHUD-SwiftUI */; };
+		03C4CC2580B7A5BC9A4FD349 /* Pods_MarketMall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6B7B601E09137AC9EEC7FD /* Pods_MarketMall.framework */; };
+		839717797FC33E76CD0F1FB3 /* Pods_MarketMallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29286A705CD3D8BA664642AA /* Pods_MarketMallTests.framework */; };
+		863621040FE6E3A549B75C64 /* Pods_MarketMall_MarketMallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2DD449B7C4D216BCD8E54C /* Pods_MarketMall_MarketMallUITests.framework */; };
 		CAF0F4B829D20EB80039CA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF0F4B729D20EB80039CA95 /* AppDelegate.swift */; };
 		CAF0F4BA29D20EB80039CA95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF0F4B929D20EB80039CA95 /* SceneDelegate.swift */; };
-		CAF0F4BC29D20EB80039CA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF0F4BB29D20EB80039CA95 /* ViewController.swift */; };
 		CAF0F4BF29D20EB80039CA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF0F4BD29D20EB80039CA95 /* Main.storyboard */; };
 		CAF0F4C229D20EB80039CA95 /* MarketMall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAF0F4C029D20EB80039CA95 /* MarketMall.xcdatamodeld */; };
 		CAF0F4C429D20EB90039CA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF0F4C329D20EB90039CA95 /* Assets.xcassets */; };
@@ -52,10 +39,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22416FE8E9D02F90E9D9B0B4 /* Pods-MarketMall-MarketMallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketMall-MarketMallUITests.release.xcconfig"; path = "Target Support Files/Pods-MarketMall-MarketMallUITests/Pods-MarketMall-MarketMallUITests.release.xcconfig"; sourceTree = "<group>"; };
+		261474452ADCA10EC25BB745 /* Pods-MarketMall-MarketMallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketMall-MarketMallUITests.debug.xcconfig"; path = "Target Support Files/Pods-MarketMall-MarketMallUITests/Pods-MarketMall-MarketMallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		29286A705CD3D8BA664642AA /* Pods_MarketMallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketMallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6B7B601E09137AC9EEC7FD /* Pods_MarketMall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketMall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C06EBF862FCE12AEA112A49 /* Pods-MarketMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketMall.release.xcconfig"; path = "Target Support Files/Pods-MarketMall/Pods-MarketMall.release.xcconfig"; sourceTree = "<group>"; };
+		4E7AFB85AE0D72F3ABAF4F74 /* Pods-MarketMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketMall.debug.xcconfig"; path = "Target Support Files/Pods-MarketMall/Pods-MarketMall.debug.xcconfig"; sourceTree = "<group>"; };
+		4F925F229D061FF3C9670674 /* Pods-MarketMallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketMallTests.release.xcconfig"; path = "Target Support Files/Pods-MarketMallTests/Pods-MarketMallTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B2DD449B7C4D216BCD8E54C /* Pods_MarketMall_MarketMallUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketMall_MarketMallUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5447CED2FEFEA1C78623150 /* Pods-MarketMallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketMallTests.debug.xcconfig"; path = "Target Support Files/Pods-MarketMallTests/Pods-MarketMallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CAF0F4B429D20EB80039CA95 /* MarketMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF0F4B729D20EB80039CA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAF0F4B929D20EB80039CA95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CAF0F4BB29D20EB80039CA95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CAF0F4BE29D20EB80039CA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAF0F4C129D20EB80039CA95 /* MarketMall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarketMall.xcdatamodel; sourceTree = "<group>"; };
 		CAF0F4C329D20EB90039CA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,21 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA58E21529D223E000A17715 /* NVActivityIndicatorViewExtended in Frameworks */,
-				CA58E22229D224D400A17715 /* PaymentButtons in Frameworks */,
-				CA58E21329D223E000A17715 /* NVActivityIndicatorView in Frameworks */,
-				CA58E21029D223A300A17715 /* EmptyDataSet-Swift in Frameworks */,
-				CA58E20629D2225E00A17715 /* FirebaseDatabaseSwift in Frameworks */,
-				CA6621AD29D2208C006E84B6 /* JGProgressHUD-SwiftUI in Frameworks */,
-				CA58E20429D2225E00A17715 /* FirebaseAuth in Frameworks */,
-				CA58E20D29D2236E00A17715 /* AlgoliaSearchClient in Frameworks */,
-				CA58E21A29D224D400A17715 /* CorePayments in Frameworks */,
-				CA58E21C29D224D400A17715 /* FraudProtection in Frameworks */,
-				CA58E22029D224D400A17715 /* PayPalWebPayments in Frameworks */,
-				CA58E21829D224D400A17715 /* CardPayments in Frameworks */,
-				CA58E20A29D2225E00A17715 /* FirebaseStorage in Frameworks */,
-				CA58E21E29D224D400A17715 /* PayPalNativePayments in Frameworks */,
-				CA58E20829D2225E00A17715 /* FirebaseFirestoreSwift in Frameworks */,
+				03C4CC2580B7A5BC9A4FD349 /* Pods_MarketMall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839717797FC33E76CD0F1FB3 /* Pods_MarketMallTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				863621040FE6E3A549B75C64 /* Pods_MarketMall_MarketMallUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8ABA68AFCCD988A4F3FB9FAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E7AFB85AE0D72F3ABAF4F74 /* Pods-MarketMall.debug.xcconfig */,
+				3C06EBF862FCE12AEA112A49 /* Pods-MarketMall.release.xcconfig */,
+				261474452ADCA10EC25BB745 /* Pods-MarketMall-MarketMallUITests.debug.xcconfig */,
+				22416FE8E9D02F90E9D9B0B4 /* Pods-MarketMall-MarketMallUITests.release.xcconfig */,
+				A5447CED2FEFEA1C78623150 /* Pods-MarketMallTests.debug.xcconfig */,
+				4F925F229D061FF3C9670674 /* Pods-MarketMallTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CAF0F4AB29D20EB80039CA95 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +111,8 @@
 				CAF0F4D029D20EB90039CA95 /* MarketMallTests */,
 				CAF0F4DA29D20EB90039CA95 /* MarketMallUITests */,
 				CAF0F4B529D20EB80039CA95 /* Products */,
+				8ABA68AFCCD988A4F3FB9FAF /* Pods */,
+				CB78281EA1E07EB89E378D1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,7 +131,6 @@
 			children = (
 				CAF0F4B729D20EB80039CA95 /* AppDelegate.swift */,
 				CAF0F4B929D20EB80039CA95 /* SceneDelegate.swift */,
-				CAF0F4BB29D20EB80039CA95 /* ViewController.swift */,
 				CAF0F4BD29D20EB80039CA95 /* Main.storyboard */,
 				CAF0F4C329D20EB90039CA95 /* Assets.xcassets */,
 				CAF0F4C529D20EB90039CA95 /* LaunchScreen.storyboard */,
@@ -160,6 +157,16 @@
 			path = MarketMallUITests;
 			sourceTree = "<group>";
 		};
+		CB78281EA1E07EB89E378D1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A6B7B601E09137AC9EEC7FD /* Pods_MarketMall.framework */,
+				7B2DD449B7C4D216BCD8E54C /* Pods_MarketMall_MarketMallUITests.framework */,
+				29286A705CD3D8BA664642AA /* Pods_MarketMallTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,32 +174,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAF0F4E129D20EB90039CA95 /* Build configuration list for PBXNativeTarget "MarketMall" */;
 			buildPhases = (
+				DA924D67E54C5744819CA0DF /* [CP] Check Pods Manifest.lock */,
 				CAF0F4B029D20EB80039CA95 /* Sources */,
 				CAF0F4B129D20EB80039CA95 /* Frameworks */,
 				CAF0F4B229D20EB80039CA95 /* Resources */,
+				BBC11A5E1129681376C09A5E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MarketMall;
-			packageProductDependencies = (
-				CA6621AC29D2208C006E84B6 /* JGProgressHUD-SwiftUI */,
-				CA58E20329D2225E00A17715 /* FirebaseAuth */,
-				CA58E20529D2225E00A17715 /* FirebaseDatabaseSwift */,
-				CA58E20729D2225E00A17715 /* FirebaseFirestoreSwift */,
-				CA58E20929D2225E00A17715 /* FirebaseStorage */,
-				CA58E20C29D2236E00A17715 /* AlgoliaSearchClient */,
-				CA58E20F29D223A300A17715 /* EmptyDataSet-Swift */,
-				CA58E21229D223E000A17715 /* NVActivityIndicatorView */,
-				CA58E21429D223E000A17715 /* NVActivityIndicatorViewExtended */,
-				CA58E21729D224D400A17715 /* CardPayments */,
-				CA58E21929D224D400A17715 /* CorePayments */,
-				CA58E21B29D224D400A17715 /* FraudProtection */,
-				CA58E21D29D224D400A17715 /* PayPalNativePayments */,
-				CA58E21F29D224D400A17715 /* PayPalWebPayments */,
-				CA58E22129D224D400A17715 /* PaymentButtons */,
-			);
 			productName = MarketMall;
 			productReference = CAF0F4B429D20EB80039CA95 /* MarketMall.app */;
 			productType = "com.apple.product-type.application";
@@ -201,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAF0F4E429D20EB90039CA95 /* Build configuration list for PBXNativeTarget "MarketMallTests" */;
 			buildPhases = (
+				C88E3E78E38209E7B5F6DA68 /* [CP] Check Pods Manifest.lock */,
 				CAF0F4C929D20EB90039CA95 /* Sources */,
 				CAF0F4CA29D20EB90039CA95 /* Frameworks */,
 				CAF0F4CB29D20EB90039CA95 /* Resources */,
@@ -219,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAF0F4E729D20EB90039CA95 /* Build configuration list for PBXNativeTarget "MarketMallUITests" */;
 			buildPhases = (
+				BB13FFBC2339573ADEDFB358 /* [CP] Check Pods Manifest.lock */,
 				CAF0F4D329D20EB90039CA95 /* Sources */,
 				CAF0F4D429D20EB90039CA95 /* Frameworks */,
 				CAF0F4D529D20EB90039CA95 /* Resources */,
+				91F58B4049A2592FC54E9EB3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,14 +260,6 @@
 				Base,
 			);
 			mainGroup = CAF0F4AB29D20EB80039CA95;
-			packageReferences = (
-				CA6621AB29D2208C006E84B6 /* XCRemoteSwiftPackageReference "JGProgressHUD-SwiftUI" */,
-				CA58E20229D2225E00A17715 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				CA58E20B29D2236E00A17715 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */,
-				CA58E20E29D223A300A17715 /* XCRemoteSwiftPackageReference "EmptyDataSet-Swift" */,
-				CA58E21129D223E000A17715 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
-				CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */,
-			);
 			productRefGroup = CAF0F4B529D20EB80039CA95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -311,12 +298,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		91F58B4049A2592FC54E9EB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarketMall-MarketMallUITests/Pods-MarketMall-MarketMallUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarketMall-MarketMallUITests/Pods-MarketMall-MarketMallUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarketMall-MarketMallUITests/Pods-MarketMall-MarketMallUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB13FFBC2339573ADEDFB358 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarketMall-MarketMallUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC11A5E1129681376C09A5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarketMall/Pods-MarketMall-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarketMall/Pods-MarketMall-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarketMall/Pods-MarketMall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C88E3E78E38209E7B5F6DA68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarketMallTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA924D67E54C5744819CA0DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarketMall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CAF0F4B029D20EB80039CA95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAF0F4BC29D20EB80039CA95 /* ViewController.swift in Sources */,
 				CAF0F4C229D20EB80039CA95 /* MarketMall.xcdatamodeld in Sources */,
 				CAF0F4B829D20EB80039CA95 /* AppDelegate.swift in Sources */,
 				CAF0F4BA29D20EB80039CA95 /* SceneDelegate.swift in Sources */,
@@ -411,6 +500,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -471,6 +561,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -491,6 +582,7 @@
 		};
 		CAF0F4E229D20EB90039CA95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7AFB85AE0D72F3ABAF4F74 /* Pods-MarketMall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -519,6 +611,7 @@
 		};
 		CAF0F4E329D20EB90039CA95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C06EBF862FCE12AEA112A49 /* Pods-MarketMall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -547,6 +640,7 @@
 		};
 		CAF0F4E529D20EB90039CA95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5447CED2FEFEA1C78623150 /* Pods-MarketMallTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -567,6 +661,7 @@
 		};
 		CAF0F4E629D20EB90039CA95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F925F229D061FF3C9670674 /* Pods-MarketMallTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -587,6 +682,7 @@
 		};
 		CAF0F4E829D20EB90039CA95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261474452ADCA10EC25BB745 /* Pods-MarketMall-MarketMallUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -605,6 +701,7 @@
 		};
 		CAF0F4E929D20EB90039CA95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22416FE8E9D02F90E9D9B0B4 /* Pods-MarketMall-MarketMallUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -661,135 +758,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		CA58E20229D2225E00A17715 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		CA58E20B29D2236E00A17715 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/algolia/algoliasearch-client-swift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.0.0;
-			};
-		};
-		CA58E20E29D223A300A17715 /* XCRemoteSwiftPackageReference "EmptyDataSet-Swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Xiaoye220/EmptyDataSet-Swift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-		CA58E21129D223E000A17715 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-		CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/paypal/iOS-SDK";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.6;
-			};
-		};
-		CA6621AB29D2208C006E84B6 /* XCRemoteSwiftPackageReference "JGProgressHUD-SwiftUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD-SwiftUI.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		CA58E20329D2225E00A17715 /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA58E20229D2225E00A17715 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		CA58E20529D2225E00A17715 /* FirebaseDatabaseSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA58E20229D2225E00A17715 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabaseSwift;
-		};
-		CA58E20729D2225E00A17715 /* FirebaseFirestoreSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA58E20229D2225E00A17715 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestoreSwift;
-		};
-		CA58E20929D2225E00A17715 /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA58E20229D2225E00A17715 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-		CA58E20C29D2236E00A17715 /* AlgoliaSearchClient */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA58E20B29D2236E00A17715 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */;
-			productName = AlgoliaSearchClient;
-		};
-		CA58E20F29D223A300A17715 /* EmptyDataSet-Swift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA58E20E29D223A300A17715 /* XCRemoteSwiftPackageReference "EmptyDataSet-Swift" */;
-			productName = "EmptyDataSet-Swift";
-		};
-		CA58E21229D223E000A17715 /* NVActivityIndicatorView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA58E21129D223E000A17715 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
-			productName = NVActivityIndicatorView;
-		};
-		CA58E21429D223E000A17715 /* NVActivityIndicatorViewExtended */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA58E21129D223E000A17715 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
-			productName = NVActivityIndicatorViewExtended;
-		};
-		CA58E21729D224D400A17715 /* CardPayments */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */;
-			productName = CardPayments;
-		};
-		CA58E21929D224D400A17715 /* CorePayments */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */;
-			productName = CorePayments;
-		};
-		CA58E21B29D224D400A17715 /* FraudProtection */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */;
-			productName = FraudProtection;
-		};
-		CA58E21D29D224D400A17715 /* PayPalNativePayments */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */;
-			productName = PayPalNativePayments;
-		};
-		CA58E21F29D224D400A17715 /* PayPalWebPayments */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */;
-			productName = PayPalWebPayments;
-		};
-		CA58E22129D224D400A17715 /* PaymentButtons */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA58E21629D224D400A17715 /* XCRemoteSwiftPackageReference "iOS-SDK" */;
-			productName = PaymentButtons;
-		};
-		CA6621AC29D2208C006E84B6 /* JGProgressHUD-SwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CA6621AB29D2208C006E84B6 /* XCRemoteSwiftPackageReference "JGProgressHUD-SwiftUI" */;
-			productName = "JGProgressHUD-SwiftUI";
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CAF0F4C029D20EB80039CA95 /* MarketMall.xcdatamodeld */ = {
