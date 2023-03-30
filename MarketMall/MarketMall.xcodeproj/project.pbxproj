@@ -10,6 +10,10 @@
 		03C4CC2580B7A5BC9A4FD349 /* Pods_MarketMall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6B7B601E09137AC9EEC7FD /* Pods_MarketMall.framework */; };
 		839717797FC33E76CD0F1FB3 /* Pods_MarketMallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29286A705CD3D8BA664642AA /* Pods_MarketMallTests.framework */; };
 		863621040FE6E3A549B75C64 /* Pods_MarketMall_MarketMallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2DD449B7C4D216BCD8E54C /* Pods_MarketMall_MarketMallUITests.framework */; };
+		CA567EC129D5B60A008BCB6A /* CategoryCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA567EC029D5B60A008BCB6A /* CategoryCVC.swift */; };
+		CA567EC329D5B6DE008BCB6A /* CategoryCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA567EC229D5B6DE008BCB6A /* CategoryCVCell.swift */; };
+		CAB32BC529D581B0002EC516 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAB32BC429D581AF002EC516 /* GoogleService-Info.plist */; };
+		CAB5DE8229D58BBB00857DAC /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5DE8129D58BBB00857DAC /* TabBarVC.swift */; };
 		CAF0F4B829D20EB80039CA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF0F4B729D20EB80039CA95 /* AppDelegate.swift */; };
 		CAF0F4BA29D20EB80039CA95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF0F4B929D20EB80039CA95 /* SceneDelegate.swift */; };
 		CAF0F4BF29D20EB80039CA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF0F4BD29D20EB80039CA95 /* Main.storyboard */; };
@@ -48,6 +52,10 @@
 		4F925F229D061FF3C9670674 /* Pods-MarketMallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketMallTests.release.xcconfig"; path = "Target Support Files/Pods-MarketMallTests/Pods-MarketMallTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B2DD449B7C4D216BCD8E54C /* Pods_MarketMall_MarketMallUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketMall_MarketMallUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5447CED2FEFEA1C78623150 /* Pods-MarketMallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketMallTests.debug.xcconfig"; path = "Target Support Files/Pods-MarketMallTests/Pods-MarketMallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA567EC029D5B60A008BCB6A /* CategoryCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCVC.swift; sourceTree = "<group>"; };
+		CA567EC229D5B6DE008BCB6A /* CategoryCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCVCell.swift; sourceTree = "<group>"; };
+		CAB32BC429D581AF002EC516 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CAB5DE8129D58BBB00857DAC /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		CAF0F4B429D20EB80039CA95 /* MarketMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF0F4B729D20EB80039CA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAF0F4B929D20EB80039CA95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,10 +139,14 @@
 			children = (
 				CAF0F4B729D20EB80039CA95 /* AppDelegate.swift */,
 				CAF0F4B929D20EB80039CA95 /* SceneDelegate.swift */,
+				CAB5DE8129D58BBB00857DAC /* TabBarVC.swift */,
+				CA567EC029D5B60A008BCB6A /* CategoryCVC.swift */,
+				CA567EC229D5B6DE008BCB6A /* CategoryCVCell.swift */,
 				CAF0F4BD29D20EB80039CA95 /* Main.storyboard */,
 				CAF0F4C329D20EB90039CA95 /* Assets.xcassets */,
 				CAF0F4C529D20EB90039CA95 /* LaunchScreen.storyboard */,
 				CAF0F4C829D20EB90039CA95 /* Info.plist */,
+				CAB32BC429D581AF002EC516 /* GoogleService-Info.plist */,
 				CAF0F4C029D20EB80039CA95 /* MarketMall.xcdatamodeld */,
 			);
 			path = MarketMall;
@@ -277,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAF0F4C729D20EB90039CA95 /* LaunchScreen.storyboard in Resources */,
+				CAB32BC529D581B0002EC516 /* GoogleService-Info.plist in Resources */,
 				CAF0F4C429D20EB90039CA95 /* Assets.xcassets in Resources */,
 				CAF0F4BF29D20EB80039CA95 /* Main.storyboard in Resources */,
 			);
@@ -406,8 +419,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA567EC329D5B6DE008BCB6A /* CategoryCVCell.swift in Sources */,
 				CAF0F4C229D20EB80039CA95 /* MarketMall.xcdatamodeld in Sources */,
 				CAF0F4B829D20EB80039CA95 /* AppDelegate.swift in Sources */,
+				CAB5DE8229D58BBB00857DAC /* TabBarVC.swift in Sources */,
+				CA567EC129D5B60A008BCB6A /* CategoryCVC.swift in Sources */,
 				CAF0F4BA29D20EB80039CA95 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,7 +516,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -561,7 +577,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
