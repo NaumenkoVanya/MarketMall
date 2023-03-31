@@ -73,6 +73,10 @@
                                         <constraint firstAttribute="bottom" secondItem="iit-x8-CBw" secondAttribute="bottom" id="yp8-th-I9z"/>
                                     </constraints>
                                 </collectionViewCellContentView>
+                                <connections>
+                                    <outlet property="imageView" destination="NZn-Qa-i1f" id="W01-nY-Fol"/>
+                                    <outlet property="nameLabel" destination="iit-x8-CBw" id="7zo-Tk-tNE"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>

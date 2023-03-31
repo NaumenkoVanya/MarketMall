@@ -34,6 +34,7 @@ class CategoryCVC: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CategoryCVCell
+        cell.generateCell(categoryArray[indexPath.row])
         
         return cell
     }
