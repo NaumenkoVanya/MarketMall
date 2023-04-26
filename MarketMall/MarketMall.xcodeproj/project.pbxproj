@@ -10,11 +10,14 @@
 		03C4CC2580B7A5BC9A4FD349 /* Pods_MarketMall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6B7B601E09137AC9EEC7FD /* Pods_MarketMall.framework */; };
 		839717797FC33E76CD0F1FB3 /* Pods_MarketMallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29286A705CD3D8BA664642AA /* Pods_MarketMallTests.framework */; };
 		863621040FE6E3A549B75C64 /* Pods_MarketMall_MarketMallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2DD449B7C4D216BCD8E54C /* Pods_MarketMall_MarketMallUITests.framework */; };
+		CA46B82429F8FD0200ED1076 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46B82329F8FD0200ED1076 /* AddItemViewController.swift */; };
 		CA526DC629D6DDCE00F13386 /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA526DC529D6DDCE00F13386 /* FirebaseCollectionReference.swift */; };
 		CA526DCB29D6E22300F13386 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA526DCA29D6E22300F13386 /* Category.swift */; };
 		CA526DCE29D6E4CE00F13386 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA526DCD29D6E4CE00F13386 /* Constants.swift */; };
 		CA567EC129D5B60A008BCB6A /* CategoryCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA567EC029D5B60A008BCB6A /* CategoryCVC.swift */; };
 		CA567EC329D5B6DE008BCB6A /* CategoryCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA567EC229D5B6DE008BCB6A /* CategoryCVCell.swift */; };
+		CA68987429F6F0E90099A010 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68987329F6F0E90099A010 /* ItemsTableViewController.swift */; };
+		CA68987629F6F3FF0099A010 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68987529F6F3FF0099A010 /* Item.swift */; };
 		CAB32BC529D581B0002EC516 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAB32BC429D581AF002EC516 /* GoogleService-Info.plist */; };
 		CAB5DE8229D58BBB00857DAC /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5DE8129D58BBB00857DAC /* TabBarVC.swift */; };
 		CAF0F4B829D20EB80039CA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF0F4B729D20EB80039CA95 /* AppDelegate.swift */; };
@@ -55,11 +58,14 @@
 		4F925F229D061FF3C9670674 /* Pods-MarketMallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketMallTests.release.xcconfig"; path = "Target Support Files/Pods-MarketMallTests/Pods-MarketMallTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B2DD449B7C4D216BCD8E54C /* Pods_MarketMall_MarketMallUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketMall_MarketMallUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5447CED2FEFEA1C78623150 /* Pods-MarketMallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketMallTests.debug.xcconfig"; path = "Target Support Files/Pods-MarketMallTests/Pods-MarketMallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA46B82329F8FD0200ED1076 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		CA526DC529D6DDCE00F13386 /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
 		CA526DCA29D6E22300F13386 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		CA526DCD29D6E4CE00F13386 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CA567EC029D5B60A008BCB6A /* CategoryCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCVC.swift; sourceTree = "<group>"; };
 		CA567EC229D5B6DE008BCB6A /* CategoryCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCVCell.swift; sourceTree = "<group>"; };
+		CA68987329F6F0E90099A010 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		CA68987529F6F3FF0099A010 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CAB32BC429D581AF002EC516 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CAB5DE8129D58BBB00857DAC /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		CAF0F4B429D20EB80039CA95 /* MarketMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				CA567EC029D5B60A008BCB6A /* CategoryCVC.swift */,
+				CA68987329F6F0E90099A010 /* ItemsTableViewController.swift */,
+				CA46B82329F8FD0200ED1076 /* AddItemViewController.swift */,
 				CAB5DE8129D58BBB00857DAC /* TabBarVC.swift */,
 			);
 			path = "Main Views";
@@ -148,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				CA526DCA29D6E22300F13386 /* Category.swift */,
+				CA68987529F6F3FF0099A010 /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -462,9 +471,12 @@
 			files = (
 				CA567EC329D5B6DE008BCB6A /* CategoryCVCell.swift in Sources */,
 				CA526DC629D6DDCE00F13386 /* FirebaseCollectionReference.swift in Sources */,
+				CA68987429F6F0E90099A010 /* ItemsTableViewController.swift in Sources */,
 				CAF0F4C229D20EB80039CA95 /* MarketMall.xcdatamodeld in Sources */,
 				CAF0F4B829D20EB80039CA95 /* AppDelegate.swift in Sources */,
+				CA46B82429F8FD0200ED1076 /* AddItemViewController.swift in Sources */,
 				CAB5DE8229D58BBB00857DAC /* TabBarVC.swift in Sources */,
+				CA68987629F6F3FF0099A010 /* Item.swift in Sources */,
 				CA567EC129D5B60A008BCB6A /* CategoryCVC.swift in Sources */,
 				CAF0F4BA29D20EB80039CA95 /* SceneDelegate.swift in Sources */,
 				CA526DCB29D6E22300F13386 /* Category.swift in Sources */,
@@ -654,8 +666,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -683,8 +695,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

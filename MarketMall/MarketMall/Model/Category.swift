@@ -27,7 +27,6 @@ class Category {
     }
 }
 
-
 //MARK: Download category from firebase
 
 func downloadCategoryiesFromFirebase(completion: @escaping (_ categoryArray: [Category]) -> Void) {
@@ -62,6 +61,7 @@ func saveCategoryToFirebase(_ category: Category) {
     
     FirebaseReference(.Category).document(id).setData(categoryDictionaryFrom(category) as! [String : Any])
 }
+
 
 //MARK: Helpers
 
