@@ -7,6 +7,9 @@
 
 import Foundation
 
+//IDS and Keys
+public let kFILEREFERENCE = "gs://marketmall-3c349.appspot.com"
+
 //MARK: Firebase Headers
 public let kUSER_PATH = "User"
 public let kCATEGORY_PATH = "User"
