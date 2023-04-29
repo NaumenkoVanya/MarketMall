@@ -105,7 +105,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="0Y8-0V-ZH6">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="0Y8-0V-ZH6" customClass="ItemTableViewCell" customModule="MarketMall" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="50" width="393" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Y8-0V-ZH6" id="ySf-6J-26O">
@@ -156,6 +156,12 @@
                                         <constraint firstItem="KdH-cM-u1z" firstAttribute="centerY" secondItem="24x-wg-QSm" secondAttribute="centerY" id="o40-Sg-Qgm"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="bb5-Kk-BKb" id="A8j-ah-Czf"/>
+                                    <outlet property="itemImageView" destination="KdH-cM-u1z" id="HNx-sL-T79"/>
+                                    <outlet property="nameLabel" destination="ZOJ-Pr-Pxe" id="N25-nI-8NX"/>
+                                    <outlet property="priceLabel" destination="24x-wg-QSm" id="vgu-yI-ukP"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

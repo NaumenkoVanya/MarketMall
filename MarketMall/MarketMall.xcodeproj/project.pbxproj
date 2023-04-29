@@ -20,6 +20,7 @@
 		CA567EC329D5B6DE008BCB6A /* CategoryCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA567EC229D5B6DE008BCB6A /* CategoryCVCell.swift */; };
 		CA68987429F6F0E90099A010 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68987329F6F0E90099A010 /* ItemsTableViewController.swift */; };
 		CA68987629F6F3FF0099A010 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68987529F6F3FF0099A010 /* Item.swift */; };
+		CAAB500C29FD0BFE00341B4C /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB500B29FD0BFE00341B4C /* ItemTableViewCell.swift */; };
 		CAB32BC529D581B0002EC516 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAB32BC429D581AF002EC516 /* GoogleService-Info.plist */; };
 		CAB5DE8229D58BBB00857DAC /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5DE8129D58BBB00857DAC /* TabBarVC.swift */; };
 		CAF0F4B829D20EB80039CA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF0F4B729D20EB80039CA95 /* AppDelegate.swift */; };
@@ -70,6 +71,7 @@
 		CA567EC229D5B6DE008BCB6A /* CategoryCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCVCell.swift; sourceTree = "<group>"; };
 		CA68987329F6F0E90099A010 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
 		CA68987529F6F3FF0099A010 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CAAB500B29FD0BFE00341B4C /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		CAB32BC429D581AF002EC516 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CAB5DE8129D58BBB00857DAC /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		CAF0F4B429D20EB80039CA95 /* MarketMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				CA567EC229D5B6DE008BCB6A /* CategoryCVCell.swift */,
+				CAAB500B29FD0BFE00341B4C /* ItemTableViewCell.swift */,
 			);
 			path = "Custom Cells";
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 				CAF0F4B829D20EB80039CA95 /* AppDelegate.swift in Sources */,
 				CA46B82429F8FD0200ED1076 /* AddItemViewController.swift in Sources */,
 				CAB5DE8229D58BBB00857DAC /* TabBarVC.swift in Sources */,
+				CAAB500C29FD0BFE00341B4C /* ItemTableViewCell.swift in Sources */,
 				CA68987629F6F3FF0099A010 /* Item.swift in Sources */,
 				CA46B84B29FA763A00ED1076 /* Downloader.swift in Sources */,
 				CA567EC129D5B60A008BCB6A /* CategoryCVC.swift in Sources */,
